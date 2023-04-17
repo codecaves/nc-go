@@ -19,6 +19,14 @@ func TestMultiContainsDuplicate(t *testing.T) {
 			nums: []int {1,1,1,3,3,4,3,2,4,2},
 			result: true,
 		},
+		{
+			nums: []int {},
+			result: false,
+		},
+		{
+			nums: []int {0},
+			result: false,
+		},
 	}
 
 	for _, st := range subtests {
