@@ -30,9 +30,9 @@ func TestMultiContainsDuplicate(t *testing.T) {
 	}
 
 	for _, st := range subtests {
-		if result := containsDuplicate(st.nums); result != st.result {
+		if res := containsDuplicate(st.nums); res != st.result {
 			t.Errorf("For %v wanted (%t), got %t", st.nums,
-				st.result, result)
+				res, st.result)
 		}
 	}
 }

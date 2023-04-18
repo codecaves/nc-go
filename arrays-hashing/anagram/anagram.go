@@ -11,3 +11,7 @@ func sortRunesToString(s string) string {
 
 	return string(runes)
 }
+
+func isAnagram(s string, t string) bool {
+	return sortRunesToString(s) == sortRunesToString(t)
+}
