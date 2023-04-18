@@ -7,7 +7,7 @@ func TestMultiIsAnagram(t *testing.T) {
 		s string
 		t string
 		result bool
-	} {
+	}{
 		{
 			s: "anagram",
 			t: "nagaram",
